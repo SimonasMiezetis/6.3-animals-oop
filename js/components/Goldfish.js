@@ -1,8 +1,8 @@
-import { Animal } from './Animal.js'
+import { Fish } from './Fish.js'
 
-class Goldfish extends Animal{
-    constructor(name, color, sound, grantsWishes) {
-        super(name, color, sound)
+class Goldfish extends Fish{
+    constructor(name, color, sound, canSwim, grantsWishes) {
+        super(name, color, sound, canSwim)
         this.grantsWishes = grantsWishes;
     }
 
